@@ -17,25 +17,22 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 20px;
-
 }
 .appbar span{
   font-size: 25px;
   font-weight: 700;
   color: whitesmoke;
-
 }
 .nav-link >a{
-  margin: 10px;
-  text-decoration: none;
-  color: white;
+margin: 10px;
+text-decoration: none;
+color: white;
 }
 .appbar > a:hover{
-  text-decoration: none;
-
+  text-decoration: underline;
 }
 footer{
-  background-color: gray;
+  background-color: crimson;
   padding: 10px;
   text-align: center;
   color: whitesmoke;
