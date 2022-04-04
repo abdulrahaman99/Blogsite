@@ -37,3 +37,35 @@ footer{
   text-align: center;
   color: whitesmoke;
 }
+.banner{
+  height: 30 vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.banner > h1{
+  font: size 50px;
+
+}
+.banner >p{
+  font-size: 20px;
+}
+.actions-wrap{
+transform: scale(0.9);
+}
+.btn-outline{
+  color:blue;
+  background-color: transparent;
+  margin: 10px;
+  height: 50px;
+  width: 100px;
+}
+.btn-contain{
+  background-color: blue;
+  color: white;
+  margin: 10px;
+  height: 50px;
+  width: 100px;
+}
